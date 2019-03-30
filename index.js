@@ -30,7 +30,7 @@
 var katzDeliLine = []
 
 function takeANumber(line, name){
-  line.push(people)
+  line.push(name)
   return(`Welcome, ${name}. You are number ${line.length} in line.`)
 }
 
