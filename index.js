@@ -1,10 +1,3 @@
-// var katzDeliLine = []
-
-// function takeANumber(katzDeliLine, people) {
-//     katzDeliLine.push(people)
-//       return(`Welcome, ${people}. You are number ${katzDeliLine.length} in line.`)
-// }
-
 // function nowServing(katzDeliLine) {
 //   if(katzDeliLine.length > 0) {
 //     return (`Currently serving ${katzDeliLine.shift()}.`)
@@ -26,8 +19,6 @@
 // 	}
 // }
 
-
-var katzDeliLine = []
 
 function takeANumber(line, name){
   line.push(name)
