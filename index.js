@@ -1,14 +1,14 @@
-// function currentLine(katzDeliLine) {
-//   var newLine = []
-// 	if (katzDeliLine.length == 0) {
-//   	return ( `The line is currently empty.`)
-// 	} else {
-//     for(var i = 0; i < katzDeliLine.length; i++){
-//     newLine.push(`${i+1}\. ${katzDeliLine[i]}`)
-//   }
-//     return (`The line is currently: ${newLine.join(', ')}`)
-// 	}
-// }
+function currentLine(katzDeliLine) {
+  var newLine = []
+	if (katzDeliLine.length == 0) {
+  	return ( `The line is currently empty.`)
+	} else {
+    for(var i = 0; i < katzDeliLine.length; i++){
+    newLine.push(`${i+1}\. ${katzDeliLine[i]}`)
+  }
+    return (`The line is currently: ${newLine.join(', ')}`)
+	}
+}
 
 
 function takeANumber(line, name){
@@ -25,5 +25,12 @@ function nowServing(line){
 }
 
 function currentLine(line){
-  
+  var newLine = []
+  if(line.length > 0){
+    for(var i = 0; i < line.length; i++){
+      
+    }
+  else{
+    return(`The line is currently empty.`)
+  }
 }
