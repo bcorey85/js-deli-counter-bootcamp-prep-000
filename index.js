@@ -1,16 +1,3 @@
-// function currentLine(katzDeliLine) {
-//   var newLine = []
-// 	if (katzDeliLine.length === 0) {
-//   	return ( `The line is currently empty.`)
-// 	} else {
-//     for(var i = 0; i < katzDeliLine.length; i++){
-//     newLine.push(`${i+1}\. ${katzDeliLine[i]}`)
-//   }
-//     return (`The line is currently: ${newLine.join(', ')}`)
-// 	}
-// }
-
-
 function takeANumber(line, name){
   line.push(name)
   return(`Welcome, ${name}. You are number ${line.length} in line.`)
