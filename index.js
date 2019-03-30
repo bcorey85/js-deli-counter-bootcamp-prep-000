@@ -17,8 +17,8 @@ function currentLine(line){
     for(var i = 0; i < line.length; i++){
       newLine.push(`${i+1}\. ${line[i]}`)
     }
-    } else{
+    }else{
     return(`The line is currently empty.`)
-  }
+    }
   return(`The line is currently: ${newLine.join(', ')}`)
 }
